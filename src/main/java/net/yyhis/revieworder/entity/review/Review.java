@@ -1,4 +1,4 @@
-package net.yyhis.revieworder.entity;
+package net.yyhis.revieworder.entity.review;
 
 import org.hibernate.annotations.ColumnDefault;
 
@@ -7,6 +7,8 @@ import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import lombok.Getter;
 import lombok.Setter;
+import net.yyhis.revieworder.entity.BaseModel;
+import net.yyhis.revieworder.entity.User;
 import net.yyhis.revieworder.entity.order.Order;
 
 @Getter

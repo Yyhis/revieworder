@@ -3,9 +3,10 @@ package net.yyhis.revieworder.entity.store;
 import lombok.Getter;
 import lombok.Setter;
 import net.yyhis.revieworder.entity.BaseModel;
-import jakarta.persistence.*;
 
-import java.util.List;
+import java.util.UUID;
+
+import jakarta.persistence.*;
 
 @Getter
 @Setter
